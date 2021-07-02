@@ -90,7 +90,7 @@
     <div class="header mb-5">
         <div class="container">
             <div class="form-section mx-auto">
-                <form class="" action="./backend/panel_back.php" method="POST" enctype = "multipart/form-data">
+                <form class="" action="<?= htmlspecialchars('./backend/panel_back.php') ?>" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="title">Title</label>
                         <input id="title" class="form-control" type="text" name="title">
